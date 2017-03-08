@@ -9,23 +9,33 @@
 		<p>Display results on the console</p>
 
 		<script>
-			var tab = [null, null, null, null, null];
+			var tab = [];
 			var i;
-
+            var isSort = true;
 			// assing random integers to array elements
-			for (i = 0; i < tab.length; i++) {
-				// ...
+            
+			for (i = 0; i < 5; i++) {
+				tab[i] = Math.floor((Math.random()*5)+1);
 			}
 
 			// show array elements
-			console.log('Array elements:');
-			// ...
-			
-			// check whether the array is ordered
-			// ...
+			console.log('Array elements:' );
+            for (i = 0; i < tab.length; i++){
+                console.log((i+1) + ". " + tab[i]);
+                
+            }
+            var unsorted = tab.slice();
+			tab.sort();
+            // check whether the array is ordered
+            for (i = 0; i < tab.length; i++){
+                    if(tab[i] != unsorted[i]){
+                        isSort = false;
+                    }
+                
+            }
 			
 			// display message: Array is ordered / unordered
-			// ...
+			console.log(`${isSort ? 'ordered' : 'unordered'}`);
 		</script>
 	</body>
 </html>
