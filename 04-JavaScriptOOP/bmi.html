@@ -15,16 +15,21 @@
 						height: null,
 						enterData: function(){
 							// enter weight and height, and assign them to the object properties
+							this.weight = 65;
+							this.height = 1.58; 
 						},
 						calculate: function(){
-							return // create a formula for calculating bmi
+							return (this.weight / (this.height*this.height)); // create a formula for calculating bmi
 						},
 						display: function(){
 							// display the result in a popup window
+							window.alert("Your bmi: " + this.calculate());
 						}
 				}
 			
 				// call BMI methods
+				BMI.enterData();
+				BMI.display();
 				// ...
 			
 			}

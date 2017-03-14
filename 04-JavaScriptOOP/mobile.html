@@ -7,6 +7,21 @@
 	<body>
 		<h1>Create mobile phone</h1>
 		<script>
+			var mobilePhone = {
+				name: "Microsoft",
+				phoneNumber: 456467932,
+				bluetooth: true,
+				dimension: {high: 142, width: 70, thickness: 7},
+				memoryCard: ["microSD", "microSDHC", "microSDXC"],
+			
+			clicked: function() {
+				window.alert("Name phone: " + this.name + " \nPhone number " + this.phoneNumber + 
+				" \nIt's have bluetooth? " + this.bluetooth + " \nDimension: High: " + this.dimension.high + 
+				" Width: " + this.dimension.width + " Thickness: " + this.dimension.thickness + 
+				"\nMemory card: " + this.memoryCard[0] + ", " + this.memoryCard[1] + ", " + this.memoryCard[2]);
+			}
+			}
 		</script>
+		<button onClick="mobilePhone.clicked()">Click</button>
 	</body>
 </html>
