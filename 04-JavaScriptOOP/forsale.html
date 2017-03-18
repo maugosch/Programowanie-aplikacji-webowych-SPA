@@ -7,6 +7,50 @@
 	<body>
 		<h1>Houses for sale</h1>
 		<script>
+            "use strict";
+            function House(bedrooms, facilities, price, street, city, phone) {
+                this.bedrooms = bedrooms;
+                this.facilities = facilities;
+                this.price = price;
+                this.phone = phone;
+                var address = {
+                    street: street,
+                    city: city
+                };
+                this.changePrice = function (newPrice) {
+                    this.price = newPrice;
+                };
+                this.addFacility = function (newFacility) {
+                    this.facilities = facilities;
+                    facilities[facilities.length] = newFacility;
+                };
+                this.descrition = function () {
+                    return window.console.log("Numer of bedrooms: " + this.bedrooms + ", Facilities: " + this.facilities.join(" and ") + ", Price: " + this.price + ", Address: " + address.street + ", " + address.city + ", Phone number: " + this.phone);
+                };
+            }
+            var i;
+            var house = [
+                new House("3", ["dishwasher", "garage"], 236, "Florianska", "Kraków", 456876235),
+                new House("5", ["swimming pool"], 6876, "Mickiewicza", "Sopot", 687532123),
+                new House("6", ["jackuzzi"], 642, "Jana Pawła II", "Trześń", 432879789),
+                new House("1", ["playground", "garage"], 9756, "Wyspańskiego", "Wisła", 646466235),
+                new House("2", ["dishwasher", "playground"], 1321, "Dekutowskiego", "Jastrzębia Góra", 456564646)
+            ];
+
+            function generateDescription() {
+                window.console.log("Description:");
+                for (i = 0; i < house.length; i += 1) {
+                    house[i].descrition();
+                }
+            }
+
+            generateDescription();
+            house[4].changePrice(64564644646);
+            house[2].changePrice(5345353);
+            house[1].addFacility("quiet surrounding");
+            house[2].addFacility("window from the east");
+            house[3].addFacility("floor heating");
+            generateDescription();
 		</script>
 	</body>
 </html>
