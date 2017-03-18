@@ -8,20 +8,48 @@
 		<h1>Create methods</h1>
 		<script>
 			var myArray = {
-					arr: [3,4,76,1,5,787,33,76,1,99,45,235,53,23],
-					min: function(){
-						this.arr.sort(function(a, b){return a-b});
-						window.console(this.arr[14]);
+					arr: [3, 4, 76, 1, 5, 787, 33, 76, 1, 99, 45, 235, 53, 23],
+					min: function () {
+                        "use strict";
+						this.arr.sort(function (a, b) {
+                            return a - b;
+                        });
+                        window.console.log("Min value: " + this.arr[0]);
 						// maximum value (sort the arr and take the last value, use a built-in function)
-					},		
-					max: function(){},		// look at the min method comment
-					avg: function(){},		// avarage value
-					lth: function(val){}	// the number of arr values less than 'val'
-			};
+				    },
+					max: function () {
+                        "use strict";
+						this.arr.sort(function (a, b) {
+                            return a - b;
+                        });
+                        window.console.log("Maks value: " + this.arr[13]);
+                    },		// look at the min method comment
+					avg: function () {
+                        "use strict";
+                        var i, avarage, sum = 0;
+                        for (i = 0; i < this.arr.length; i += 1) {
+                            sum += this.arr[i];
+                        }
+                        avarage = (sum / this.arr.length);
+                        window.console.log("Avarage value: " + avarage);
+                    },		// avarage value
+					lth: function (val) {
+                        "use strict";
+                        var i, less = 0;
+                        for (i = 0; i < this.arr.length; i += 1) {
+                            if (val > this.arr[i]) {
+                                less += 1;
+                            }
+                        }
+                        window.console.log("Number of arr values less than " + val + ": " + less);
+                    }	// the number of arr values less than 'val'
+			    };
 			
 			// display results (min,max,avg,lth) in the console
 			myArray.min();
-			// ...
+            myArray.max();
+            myArray.avg();
+            myArray.lth(8);
 		</script>
 	</body>
 </html>

@@ -7,25 +7,26 @@
 	<body>
 		<h1>Display movie</h1>
 		<script>
+            var i;
 			var myFavMovie = {
-					title: 		'The Shawshank Redemption',
-					genre: 		'drama',
-					year:		1994,
-					database:	'http://www.imdb.com/title/tt0111161/',
-					specs:		{budget:25000000, language:'English', digitalSound:true},
-					stars: 		['Tim Robbins', 'Morgan Freeman', 'Bob Gunton']
-			};
-			console.log("## My favourite film ##");
-			console.log("Title: ", myFavMovie.title);
-			console.log("Genre: ", myFavMovie.genre);
-			console.log("Year:", myFavMovie.year);
-			console.log("Database: ", myFavMovie.database);
-			console.log("Spec budget: ", myFavMovie.specs.budget);
-			console.log("Spec language: ", myFavMovie.specs.language);
-			console.log("Spec digital Sound: ", myFavMovie.specs.digitalSound);
-			console.log("Star: ");
-			for(var i=0; i < myFavMovie.stars.length; i++){
-				console.log(myFavMovie.stars[i]);
+					title: 'The Shawshank Redemption',
+					genre: 'drama',
+					year: 1994,
+					database: 'http://www.imdb.com/title/tt0111161/',
+					specs: {budget: 25000000, language: 'English', digitalSound: true},
+					stars: ['Tim Robbins', 'Morgan Freeman', 'Bob Gunton']
+                };
+			window.console.log("## My favourite film ##");
+			window.console.log("Title: ", myFavMovie.title);
+			window.console.log("Genre: ", myFavMovie.genre);
+			window.console.log("Year:", myFavMovie.year);
+			window.console.log("Database: ", myFavMovie.database);
+			window.console.log("Spec budget: ", myFavMovie.specs.budget);
+			window.console.log("Spec language: ", myFavMovie.specs.language);
+			window.console.log("Spec digital Sound: ", myFavMovie.specs.digitalSound);
+			window.console.log("Star: ");
+			for (i = 0; i < myFavMovie.stars.length; i += 1) {
+				window.console.log(myFavMovie.stars[i]);
 			}
 			// ...
 			

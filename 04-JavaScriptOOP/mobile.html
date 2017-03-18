@@ -14,13 +14,11 @@
 				dimension: {high: 142, width: 70, thickness: 7},
 				memoryCard: ["microSD", "microSDHC", "microSDXC"],
 			
-			clicked: function() {
-				window.alert("Name phone: " + this.name + " \nPhone number " + this.phoneNumber + 
-				" \nIt's have bluetooth? " + this.bluetooth + " \nDimension: High: " + this.dimension.high + 
-				" Width: " + this.dimension.width + " Thickness: " + this.dimension.thickness + 
-				"\nMemory card: " + this.memoryCard[0] + ", " + this.memoryCard[1] + ", " + this.memoryCard[2]);
-			}
-			}
+                clicked: function () {
+                    "use strict";
+				    window.alert("Name phone: " + this.name + " \nPhone number " + this.phoneNumber + " \nIt's have bluetooth? " + this.bluetooth + " \nDimension: High: " + this.dimension.high + " Width: " + this.dimension.width + " Thickness: " + this.dimension.thickness + "\nMemory card: " + this.memoryCard[0] + ", " + this.memoryCard[1] + ", " + this.memoryCard[2]);
+			    }
+			};
 		</script>
 		<button onClick="mobilePhone.clicked()">Click</button>
 	</body>
