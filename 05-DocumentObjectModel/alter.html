@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<h1>Another Brick in the Wall</h1>
-		<h3>Pink Floyd</h3>
+		<h3 onclick="MyFunction();">Pink Floyd</h3>
 		<p>We don't need no education<br>
 		We don't need no thought control<br>
 		No dark sarcasm in the classroom<br>
@@ -15,13 +15,15 @@
 		All in all it's just another brick in the wall<br>
 		All in all you're just another brick in the wall</p>
 		
-		<p style="visibility: hidden;">Pink Floyd were an English rock band formed in London.<br>
+		<p style="visibility: hidden;" id="hide">Pink Floyd were an English rock band formed in London.<br>
 		They achieved international acclaim with their progressive<br>
 		and psychedelic music.</p>
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script>
 			// a JavaScript code here ...
-			
+			function MyFunction() {
+				document.getElementBy('hide').style.display = "none";
+			}
 		</script>
 	</body>
 </html>
