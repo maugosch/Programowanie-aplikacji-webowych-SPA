@@ -8,9 +8,7 @@
 		<h1>Array checker</h1>
 		<p>Display results on the console</p>
 		<script>
-			var tab = [];
-			var i;
-            var isSort = true;
+			var tab = [], i, isSort = true, sort;
 			// assing random integers to array elements
 			for (i = 0; i < 5; i += 1) {
 				tab[i] = Math.floor((Math.random() * 5) + 1);
@@ -29,7 +27,8 @@
                 }
             }
 			// display message: Array is ordered / unordered
-			window.console.log(`${isSort ? 'ordered' : 'unordered'}`);
+            sort = isSort ? 'ordered' : 'unordered';
+			window.console.log(sort);
 		</script>
 	</body>
 </html>

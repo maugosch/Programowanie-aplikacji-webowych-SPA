@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Change colour</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Another Brick in the Wall</h1>
+		<h3 id="show_img">Pink Floyd</h3>
+		<p id="italic">We don't need no education<br>
+		We don't need no thought control<br>
+		No dark sarcasm in the classroom<br>
+		Teachers leave them kids alone<br>
+		Hey! Teachers! Leave them kids alone<br>
+		All in all it's just another brick in the wall<br>
+		All in all you're just another brick in the wall</p>
+		<p style="visibility: hidden;" id="show">Pink Floyd were an English rock band formed in London.<br>
+		They achieved international acclaim with their progressive<br>
+		and psychedelic music.</p>
+        <p></p>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script>
+            var firstTitle = $("h1").text(), click = 0;
+            // After clicking on the band name, description is to be displayed below lyrics
+            $("#show_img").click(function () {
+                "use strict";
+                $("#show").css('visibility', 'visible');
+            });
+            // The band picture is to displayed below the description
+            $("#show").click(function () {
+                "use strict";
+                if (click === 0) {
+                    var img = $("<img>");
+                    img.attr("src", "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg");
+                    img.appendTo("body");
+                    click += 1;
+                }
+            });
+            // After click on the lyrics, the text is to be displayed in italics
+            $("#italic").click(function () {
+                "use strict";
+                $("#italic").css("font-style", "italic");
+            });
+            // After clicking on the song title, the Part 2 is to be added at the end of the song
+            $("h1").click(function () {
+                "use strict";
+                if (firstTitle === $("h1").text()) {
+                    $("h1").text(firstTitle + " Part 2");
+                }
+            });
+            // When someone try copy part of the lyrics, the copyright message is to be displayed in a popup window
+            $("#italic").bind("copy", function () {
+                "use strict";
+                window.alert("Copy behaviour detected!");
+            });
+            // after double click on the page, background color is changed
+            $(document).dblclick(function () {
+                "use strict";
+                $("body").css("background-color", "#fef65b");
+            });
+		</script>
+	</body>
+</html>

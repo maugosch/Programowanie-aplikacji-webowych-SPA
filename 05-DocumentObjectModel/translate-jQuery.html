@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create DOM elements</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h3>Sticks and stones may break my bones, but words will never harm me.</h3>
+		<script src="jquery-3.1.1.min.js"></script>
+		<script>
+			// a JavaScript code here ...
+            $(document).ready(function () {
+                "use strict";
+                var element = $("h3").text();
+                $("h3").mouseover(function () {
+                    $(this).html('Kije i kamienie kości mi połamią, ale twoje słowa nigdy mnie nie zranią');
+                });
+                $("h3").mouseout(function () {
+                    $(this).html(element);
+                });
+            });
+		</script>
+	</body>
+</html>
