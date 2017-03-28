@@ -1,0 +1,438 @@
+{
+	"plan-zajec": {
+		"okres": [
+			{
+				"_od": "2017-03-28",
+				"_do": "2017-04-11",
+				"_nazwa": "2017-03-28 do 2017-04-11",
+				"_wybrany": "tak"
+			},
+			{
+				"_od": "2016-09-30",
+				"_do": "2017-02-19",
+				"_nazwa": "2016-09-30 do 2017-02-19"
+			},
+			{
+				"_od": "2017-02-20",
+				"_do": "2017-09-30",
+				"_nazwa": "2017-02-20 do 2017-09-30"
+			}
+		],
+		"zajecia": [
+			{
+				"termin": "2017-03-28",
+				"dzien": "Wt",
+				"od-godz": "09:35",
+				"do-godz": "11:15",
+				"przedmiot": "Psychologia",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-490",
+					"__text": "dr Alicja Szczygieł"
+				},
+				"sala": "Paw.S sala 2"
+			},
+			{
+				"termin": "2017-03-28",
+				"dzien": "Wt",
+				"od-godz": "11:20",
+				"do-godz": "13:00",
+				"przedmiot": "Etykieta menedżera",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-1077",
+					"__text": "dr Anna Pietruszka-Ortyl"
+				},
+				"sala": "Paw.E sala H"
+			},
+			{
+				"termin": "2017-03-28",
+				"dzien": "Wt",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Programowanie aplikacji webowych SPA",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			},
+			{
+				"termin": "2017-03-28",
+				"dzien": "Wt",
+				"od-godz": "18:10",
+				"do-godz": "19:45",
+				"przedmiot": "Usługi cloud computing dla przedsiębiorstw",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			},
+			{
+				"termin": "2017-03-29",
+				"dzien": "Śr",
+				"od-godz": "07:50",
+				"do-godz": "09:30",
+				"przedmiot": "Analiza matematyczna i algebra liniowa",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-525",
+					"__text": "mgr Paweł Prysak"
+				},
+				"sala": "Paw.F 102",
+				"uwagi": "powtarzanie przedmiotu 40 g"
+			},
+			{
+				"termin": "2017-03-30",
+				"dzien": "Cz",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Programowanie systemów mobilnych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1039",
+					"__text": "mgr Janusz Tuchowski"
+				},
+				"sala": "Paw.A 118 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-03-31",
+				"dzien": "Pt",
+				"od-godz": "10:30",
+				"do-godz": "13:00",
+				"przedmiot": "\nComarch Business Intelligence w praktyce zarządzania\n",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-870",
+					"__text": "prof. UEK dr hab. Janusz Nesterak"
+				},
+				"sala": "Paw.A 301a lab."
+			},
+			{
+				"termin": "2017-04-03",
+				"dzien": "Pn",
+				"od-godz": "09:35",
+				"do-godz": "11:15",
+				"przedmiot": "Systemy zintegrowane",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-893",
+					"__text": "prof. UEK dr hab. Piotr Soja"
+				},
+				"sala": "Bibl. 442"
+			},
+			{
+				"termin": "2017-04-03",
+				"dzien": "Pn",
+				"od-godz": "13:05",
+				"do-godz": "14:45",
+				"przedmiot": "Analiza matematyczna i algebra liniowa",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-525",
+					"__text": "mgr Paweł Prysak"
+				},
+				"sala": "Paw.F 415",
+				"uwagi": "powtarzanie przedmiotu 40 g"
+			},
+			{
+				"termin": "2017-04-03",
+				"dzien": "Pn",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Systemy zintegrowane",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-893",
+					"__text": "prof. UEK dr hab. Piotr Soja"
+				},
+				"sala": "Paw.A 121 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-04-03",
+				"dzien": "Pn",
+				"od-godz": "18:10",
+				"do-godz": "19:45",
+				"przedmiot": "Programowanie systemów rozproszonych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1039",
+					"__text": "mgr Janusz Tuchowski"
+				},
+				"sala": "Paw.A 117 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-04-04",
+				"dzien": "Wt",
+				"od-godz": "09:35",
+				"do-godz": "11:15",
+				"przedmiot": "Psychologia",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-490",
+					"__text": "dr Alicja Szczygieł"
+				},
+				"sala": "Paw.S sala 2"
+			},
+			{
+				"termin": "2017-04-04",
+				"dzien": "Wt",
+				"od-godz": "11:20",
+				"do-godz": "13:00",
+				"przedmiot": "Etykieta menedżera",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-1077",
+					"__text": "dr Anna Pietruszka-Ortyl"
+				},
+				"sala": "Paw.E sala H"
+			},
+			{
+				"termin": "2017-04-04",
+				"dzien": "Wt",
+				"od-godz": "14:50",
+				"do-godz": "16:25",
+				"przedmiot": "Programowanie systemów mobilnych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.G 12"
+			},
+			{
+				"termin": "2017-04-04",
+				"dzien": "Wt",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Programowanie aplikacji webowych SPA",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			},
+			{
+				"termin": "2017-04-04",
+				"dzien": "Wt",
+				"od-godz": "18:10",
+				"do-godz": "19:45",
+				"przedmiot": "Usługi cloud computing dla przedsiębiorstw",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			},
+			{
+				"termin": "2017-04-05",
+				"dzien": "Śr",
+				"od-godz": "07:50",
+				"do-godz": "09:30",
+				"przedmiot": "Analiza matematyczna i algebra liniowa",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-525",
+					"__text": "mgr Paweł Prysak"
+				},
+				"sala": "Paw.F 102",
+				"uwagi": "powtarzanie przedmiotu 40 g"
+			},
+			{
+				"termin": "2017-04-05",
+				"dzien": "Śr",
+				"od-godz": "11:20",
+				"do-godz": "13:00",
+				"przedmiot": "Programowanie systemów rozproszonych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-1041",
+					"__text": "dr inż. Tadeusz Wilusz"
+				},
+				"sala": "Bibl. 443"
+			},
+			{
+				"termin": "2017-04-06",
+				"dzien": "Cz",
+				"od-godz": "09:35",
+				"do-godz": "11:15",
+				"przedmiot": "BHP i ergonomia",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-928",
+					"__text": "dr Bernard Bińczycki"
+				},
+				"sala": "Bibl. 441"
+			},
+			{
+				"termin": "2017-04-06",
+				"dzien": "Cz",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Programowanie systemów mobilnych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1039",
+					"__text": "mgr Janusz Tuchowski"
+				},
+				"sala": "Paw.A 118 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-04-07",
+				"dzien": "Pt",
+				"od-godz": "08:45",
+				"do-godz": "10:20",
+				"przedmiot": "Sieci komputerowe",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1041",
+					"__text": "dr inż. Tadeusz Wilusz"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office03",
+				"uwagi": "powtarzanie przedmiotu 1 gr."
+			},
+			{
+				"termin": "2017-04-07",
+				"dzien": "Pt",
+				"od-godz": "10:30",
+				"do-godz": "13:00",
+				"przedmiot": "\nComarch Business Intelligence w praktyce zarządzania\n",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-870",
+					"__text": "prof. UEK dr hab. Janusz Nesterak"
+				},
+				"sala": "Paw.A 301a lab."
+			},
+			{
+				"termin": "2017-04-10",
+				"dzien": "Pn",
+				"od-godz": "07:50",
+				"do-godz": "09:30",
+				"przedmiot": "Sieci komputerowe",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1041",
+					"__text": "dr inż. Tadeusz Wilusz"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office03",
+				"uwagi": "powtarzanie przedmiotu 1 gr."
+			},
+			{
+				"termin": "2017-04-10",
+				"dzien": "Pn",
+				"od-godz": "09:35",
+				"do-godz": "10:20",
+				"przedmiot": "Systemy zintegrowane",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-893",
+					"__text": "prof. UEK dr hab. Piotr Soja"
+				},
+				"sala": "Bibl. 442"
+			},
+			{
+				"termin": "2017-04-10",
+				"dzien": "Pn",
+				"od-godz": "13:05",
+				"do-godz": "14:45",
+				"przedmiot": "Analiza matematyczna i algebra liniowa",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-525",
+					"__text": "mgr Paweł Prysak"
+				},
+				"sala": "Paw.F 415",
+				"uwagi": "powtarzanie przedmiotu 40 g"
+			},
+			{
+				"termin": "2017-04-10",
+				"dzien": "Pn",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Systemy zintegrowane",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-893",
+					"__text": "prof. UEK dr hab. Piotr Soja"
+				},
+				"sala": "Paw.A 121 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-04-10",
+				"dzien": "Pn",
+				"od-godz": "18:10",
+				"do-godz": "19:45",
+				"przedmiot": "Programowanie systemów rozproszonych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1039",
+					"__text": "mgr Janusz Tuchowski"
+				},
+				"sala": "Paw.A 117 lab. Vista,Office07"
+			},
+			{
+				"termin": "2017-04-11",
+				"dzien": "Wt",
+				"od-godz": "09:35",
+				"do-godz": "11:15",
+				"przedmiot": "Psychologia",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-490",
+					"__text": "dr Alicja Szczygieł"
+				},
+				"sala": "Paw.S sala 2"
+			},
+			{
+				"termin": "2017-04-11",
+				"dzien": "Wt",
+				"od-godz": "11:20",
+				"do-godz": "13:00",
+				"przedmiot": "Etykieta menedżera",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-1077",
+					"__text": "dr Anna Pietruszka-Ortyl"
+				},
+				"sala": "Paw.E sala H"
+			},
+			{
+				"termin": "2017-04-11",
+				"dzien": "Wt",
+				"od-godz": "16:30",
+				"do-godz": "18:05",
+				"przedmiot": "Programowanie aplikacji webowych SPA",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			},
+			{
+				"termin": "2017-04-11",
+				"dzien": "Wt",
+				"od-godz": "18:10",
+				"do-godz": "19:45",
+				"przedmiot": "Usługi cloud computing dla przedsiębiorstw",
+				"typ": "wykład do wyboru",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 116 lab. Win8, Office03"
+			}
+		],
+		"_typ": "G",
+		"_id": "116071",
+		"_nazwa": "KrDZIs3012Io",
+		"_od": "2017-03-28",
+		"_do": "2017-04-11"
+	}
+}

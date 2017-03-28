@@ -1,0 +1,54 @@
+{
+  "person": {
+    "name": "rewrew",
+    "surname": "eqeq",
+    "age": 20,
+    "gender": "vxvx",
+    "email": "sasasa@gmail.com",
+    "phone": {
+      "landline": "fdfdf",
+      "mobile": "dsadasda"
+    },
+    "address": {
+      "street": "gfdgdg",
+      "homeNumber": 42342424242,
+      "postalCode": "14-456",
+      "city": "dsdsad,"
+    },
+    "interests": [
+      "sdadsa",
+      "dsadsada",
+      "dsadasd"
+    ],
+    "family": {
+      "spouse": {
+        "name": "dsada",
+        "surname": "dsasda"
+      }
+    },
+    "children": [
+      {
+        "name": "sada",
+        "surname": "dsdada",
+        "gender": "dsd",
+        "age": 4,
+        "interest": [
+          "sdadad",
+          "dsadasd",
+          "dsada"
+        ]
+      },
+      {
+        "name": "Dsada",
+        "surname": "dsdada",
+        "gender": "dsd",
+        "age": 4,
+        "interest": [
+          "sdadad",
+          "dsadasd",
+          "dsada"
+        ]
+      }
+    ]
+  }
+}
