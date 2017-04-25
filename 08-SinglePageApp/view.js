@@ -1,16 +1,38 @@
 var view = {
 		display: function (data) {
 			// create new data view to be displayed
-			var elem, text, i;
+			var elem, text, i, wiersz, tbl, naglowek;
 			this.clear();
-			for (i = 0; i < data.length; i++) {
-				elem = document.createElement("h3");
-				text = document.createTextNode(
-						data[i].code + "/" + data[i].name + " " + data[i].rate
-						);
+            tbl = document.createElement("table");
+            tbl.setAttribute('border', '1');
+            
+            naglowek = document.createElement("th");
+            text = document.createTextNode("Code");
+            naglowek.appendChild(text);
+            tbl.appendChild(naglowek);
+            
+            naglowek = document.createElement("th");
+            text = document.createTextNode("Name");
+            naglowek.appendChild(text);
+            tbl.appendChild(naglowek);
+            
+            naglowek = document.createElement("th");
+            text = document.createTextNode("Rate");
+            naglowek.appendChild(text);
+            tbl.appendChild(naglowek);
+            
+			for (i = 0; i < data.length; i += 1) {
+				elem = document.createElement("td");
+                wiersz = document.createElement("tr");
+                elem.appendChild()
+				text = document.createTextNode(data[i].code + "/" + data[i].name + " " + data[i].rate);
+                
 				elem.appendChild(text);
-				document.getElementById('dataview').appendChild(elem);
+                wiersz.appendChild(elem);
+                tbl.appendChild(wiersz);
+                
 			}
+            document.getElementById('dataview').appendChild(tbl);
 		},
 		clear: function () {
 			// remove old data
@@ -24,7 +46,7 @@ var view = {
 					code: document.getElementById('code').value,
 					rate: document.getElementById('rate').value,
 					name: document.getElementById('name').value
-			}
+                };
 			controller.storeCurrency(currency);
 		}
 	};
